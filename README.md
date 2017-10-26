@@ -1,11 +1,11 @@
-# tencent-nlp
+# TENCENT-NLP
 
-## lexical-analysis
-#### desp 
+## LexicalAnalysis
+#### DESP 
 分词&命名实体API
-#### input 
+#### INPUT 
 帮我订一张北京到上海的机票
-#### output
+#### OUTPUT
 ```json
 {
     "code": 0, 
