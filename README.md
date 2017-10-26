@@ -1,6 +1,7 @@
 # TENCENT-NLP
 Table of Contents
 ---
+
 <!-- toc -->
 
 - [LexicalAnalysis](#lexicalanalysis)
