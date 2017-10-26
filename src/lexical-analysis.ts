@@ -5,7 +5,7 @@ const action = 'LexicalAnalysis'
 // input
 const text = '帮我订一张北京到上海的机票'
 const code = 0x00200000 // utf-8 as the only input
-const type = 1 // 1 OR 0
+const type = 1 // 取值0或1，默认为0。 0为基础粒度版分词，倾向于将句子切分的更细，在搜索场景使用为佳。 1为混合粒度版分词，倾向于保留更多基本短语不被切分开。
 
 // qcloud public parameter
 const capi = new Capi({
